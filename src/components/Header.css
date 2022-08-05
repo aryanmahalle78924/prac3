@@ -1,0 +1,25 @@
+.header {
+  background-color: black;
+  height: 10vh;
+  margin-bottom: 15%;
+}
+.header ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.header ul .links {
+  text-decoration: none;
+  color: white;
+  padding-left: 40px;
+  margin-right: 20px;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.header ul .links:hover,
+.header ul .links:active,
+.header ul .links:focus {
+  color: aquamarine;
+}
